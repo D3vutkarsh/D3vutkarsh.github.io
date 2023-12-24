@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(120deg, #e2c35d, #d88771);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h1,
+form,
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 15vh;
+}
+
+.todocontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: fit-content;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: .1rem;
+    margin: .5rem 0;
+}
+
+.input-box {
+    font-size: 1.3rem;
+    border-radius: 6px;
+    border: none;
+    /* outline: none; */
+    padding: .3rem;
+    margin: .4rem;
+}
+
+.add-btn {
+    font-size: 1.2rem;
+    border-radius: 6px;
+    border: none;
+    /* outline: none; */
+    padding: .3rem;
+    margin: .4rem;
+}
+
+.item {
+    list-style: none;
+    color: black;
+    font-size: 1.8rem;
+    margin: .4rem 1.5rem;
+    flex-grow: 1;
+}
+
+
+
+.fa-trash,
+.fa-square-check {
+    padding: .3rem;
+    pointer-events: none;
+    border: none;
+}
+
+.del-btn {
+    background-color: red;
+    cursor: pointer;
+}
+
+.complete-btn {
+    background-color: green;
+    cursor: pointer;
+}
+.completed{
+    opacity: .4;
+}
